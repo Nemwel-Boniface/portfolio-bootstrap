@@ -12,12 +12,12 @@ nav {
 .landing {
   background: #1c1a19;
   width: 100%;
-    height: 758px;
-    position: relative;
-    background-image: url(../images/landingdesktopV.png);
-    background-size: 635px 640px;
-    background-position: bottom 100px right 0;
-    background-repeat: no-repeat;
+  height: 758px;
+  position: relative;
+  background-image: url(../images/landingdesktopV.png);
+  background-size: 635px 640px;
+  background-position: bottom 100px right 0;
+  background-repeat: no-repeat;
 }
 .landingbody {
   width: 100%;
@@ -33,11 +33,11 @@ nav {
 }
 .landingHeader h1 {
   width: 566px;
-    height: 160px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 71px;
-    line-height: 81px;
+  height: 160px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 71px;
+  line-height: 81px;
   color: #ff6800;
   margin-bottom: 24px;
 }
@@ -50,11 +50,11 @@ nav {
 }
 .landingoccupation h2 {
   width: 566px;
-    height: 24px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 44px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
   color: #fff5e1;
 }
 .landingexplanation {
@@ -66,11 +66,11 @@ nav {
 }
 .landingexplanation p {
   width: 566px;
-    height: 123px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 32px;
+  height: 123px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
   color: #fff;
 }
 
@@ -83,12 +83,12 @@ nav {
 .myWorksHeading h2 {
   margin-top: 100px;
   font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-    width: 315px;
-    height: 52px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+  width: 315px;
+  height: 52px;
 }
 .myWorksHeading .hr {
   width: 784px;
@@ -121,14 +121,14 @@ nav {
 .btm-display {
   position: relative;
 }
-.btm-display button {
+/* .btm-display button {
   background-color: #ff6800;
-  position: absolute; 
-  bottom: 0; 
-  left: 0; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
   border: none;
-}
+} */
 
 button {
   background-color: #ff6800;
@@ -137,17 +137,19 @@ button {
 /*who am i section*/
 .myworks {
   width: 100%;
-    height: 1300px;
-    background: #1c1a19;
-    background-image: url(../images/Frame.png);
-    background-position: top 100px right 0;
-    background-size: 672px 353px;
-    background-repeat: no-repeat;
+  height: 100%
+  height: 1300px;
+  background: #1c1a19;
+  background-image: url(../images/Frame.png);
+  background-position: top 100px right 0;
+  background-size: 672px 353px;
+  background-repeat: no-repeat;
 }
+
 .bootstrapHeader h2 {
   width: 566px;
   height: 78px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
