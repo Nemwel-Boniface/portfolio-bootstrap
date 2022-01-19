@@ -1,138 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Nemwel Boniface" />
-  <meta
-    name="description"
-    content="This is my personal portfolio site that I will build to test my skills with Bootstrap5"
-  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nemwel Boniface" />
+    <meta
+      name="description"
+      content="This is my personal portfolio site that I will build to test my skills with Bootstrap5"
+    />
 
-  <!--google Fonts roboto, crete-round, Inter-->
+    <!--google Fonts roboto, crete-round, Inter-->
 
-  <!-- font awesome icons -->
+    <!-- font awesome icons -->
 
-  <link
-    rel="stylesheet"
-    href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-  <!--Page stylesheets-->
-  <link rel="stylesheet" href="stylesheets/style.css" />
+    <!--Page stylesheets-->
+    <link rel="stylesheet" href="stylesheets/style.css" />
 
-  <!--Smooth scroll script-->
-  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <!--Smooth scroll script-->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
-  <!--Page title-->
-  <title>Nemwel portfolio Bootstrap version</title>
+    <!--Page title-->
+    <title>Nemwel portfolio Bootstrap version</title>
 
-  <!--Link to bootstrap css node modules-->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light myNav">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Nemwel Boniface</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i
+    <!--Link Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="width: 100%">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light myNav"
+      style="width: 100%"
+    >
+      <div class="container-fluid" style="width: 100vw">
+        <a class="navbar-brand" href="#">Nemwel Boniface</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="justify-content-end collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-envelope-o" aria-hidden="true"></i
               ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main section -->
+    <main>
+      <section class="landing container-fluid-sm p-5">
+        <ul
+          class="nav flex-column position-absolute top-50 start-15 translate-middle-y"
+        >
+          <li class="nav-item">
+            <a class="nav-link link-light h3" aria-current="page" href="#"
+              ><i class="git fa fa-github" aria-hidden="true"></i
+            ></a>
           </li>
-        </ul>  
-      </div>
-    </div>
-  </nav>
-
-  <main class="main">
-    <section class="landing container-fluid-sm">
-      <ul class="nav flex-column position-absolute top-50 start-15 translate-middle-y">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#"><i class="git fa fa-github" aria-hidden="true"></i
+          <li class="nav-item">
+            <a class="nav-link link-light h3" href="#"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
             ></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light h3" href="#"
+              ><i class="fa fa-twitter" aria-hidden="true"></i
             ></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-light h3" href="#"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
             ></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i
-            ></a>
-        </li>
-      </ul>
+          </li>
+        </ul>
 
-      <div class="landingbody">
-        <div class="landingHeader  position-absolute top-50">
-          <h1>Hey There. I'm Nemwel</h1>
-        </div>
-
-        <div class="landingoccupation position-absolute top-50">
-          <h2>I'am a Software Developer</h2>
-        </div>
-
-        <div class="landingexplanation position-absolute top-50">
-          <p>
-            I can help you build a product , feature or website Look through
-            some of my work and experience! If you like what you see and have
-            a project you need coded, don't hestiate to contact me.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="myWorks container-sm">
-      <div class="myWorksHeading ">
-        <h2 class="float-md-start" >My Recent Works</h2>
-        <hr class="hr" >
-      </div>
-
-      <div class="container featuredproduct my-5">
-        <div class="row row-cols-2">
-          <div class="col-7 my-5">
-            <img src="images/featuredWork.png" alt="Featured work image" />
+        <div class="landingbody">
+          <div class="landingHeader position-absolute top-50">
+            <h1>Hey There. I'm Nemwel</h1>
           </div>
 
-          <div class="col-5 my-5 px-3">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="...">
+          <div class="landingoccupation position-absolute top-50">
+            <h2>I'am a Software Developer</h2>
+          </div>
+
+          <div class="landingexplanation position-absolute top-50">
+            <p>
+              I can help you build a product , feature or website Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don't hestiate to contact me.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- project section -->
+      <section class="myWorks container-sm">
+        <div class="myWorksHeading">
+          <h2 class="float-md-start">My Recent Works</h2>
+          <hr class="hr" />
+        </div>
+        <div class="col-sm-12 container featuredproduct my-5">
+          <div class="row row-cols-2">
+            <div class="col-7 col-sm-8 my-5">
+              <img
+                class="col-sm-9"
+                src="images/featuredWork.png"
+                alt="Featured work image"
+              />
+            </div>
+
+            <div class="col-3 my-5 my-sm-0 card" style="width: 18rem">
               <div class="card-body">
                 <h5 class="card-title">Multi-Post Stories</h5>
-                <p class="card-text">A daily selection of privately personalized reads; no accounts
+                <p class="card-text">
+                  A daily selection of privately personalized reads; no accounts
                   or sign-ups required. has been the industry's standard dummy
                   text ever since the 1500s, when an unknown printer took a
-                  standard dummy text.</p>
-                <a href="#" class="btn btn-primary">See Project</a>
+                  standard dummy text.
+                </p>
+                <ul
+                  class="my-4 d-flex flex-row list-group list-unstyled justify-content-around"
+                >
+                  <li class="css mx-1 px-1 border border-dark border-1">css</li>
+                  <li class="html mx-1 px-1 border border-dark border-1">
+                    html
+                  </li>
+                  <li class="bootstrap mx-1 px-1 border border-dark border-1">
+                    bootstrap
+                  </li>
+                  <li class="ruby mx-1 px-1 border border-dark border-1">
+                    Ruby
+                  </li>
+                </ul>
+                <button
+                  href="#"
+                  class="btn btn-primary"
+                  style="background-color: #ff6800"
+                >
+                  See Project
+                </button>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
-
-   <!--Link to bootstrap js node modules-->
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js" ></script>
-</body>
+      </section>
+      <section class="container d-flex flex-row flex-wrap gap-1">
+        <div class="col-4 card bg-dark text-white">
+          <img class="card-img" src="images/projectbg.png" alt="Card image" />
+          <div class="card-img-overlay align-content-end">
+            <h3 class="card-title">Profesional Art Printing Data</h3>
+            <p class="card-text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul
+              class="my-4 d-flex flex-row list-group list-unstyled justify-content-around"
+            >
+              <li class="css mx-1 px-1 border border-dark border-1">css</li>
+              <li class="html mx-1 px-1 border border-dark border-1">html</li>
+              <li class="bootstrap mx-1 px-1 border border-dark border-1">
+                bootstrap
+              </li>
+              <li class="ruby mx-1 px-1 border border-dark border-1">Ruby</li>
+            </ul>
+            <button
+              href="#"
+              class="btn btn-primary"
+              style="background-color: #ff6800"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="col-4 card bg-dark text-white">
+          <img class="card-img" src="images/projectbg.png" alt="Card image" />
+          <div class="card-img-overlay align-content-end">
+            <h3 class="card-title">Profesional Art Printing Data</h3>
+            <p class="card-text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul
+              class="my-4 d-flex flex-row list-group list-unstyled justify-content-around"
+            >
+              <li class="css mx-1 px-1 border border-dark border-1">css</li>
+              <li class="html mx-1 px-1 border border-dark border-1">html</li>
+              <li class="bootstrap mx-1 px-1 border border-dark border-1">
+                bootstrap
+              </li>
+              <li class="ruby mx-1 px-1 border border-dark border-1">Ruby</li>
+            </ul>
+            <button
+              href="#"
+              class="btn btn-primary"
+              style="background-color: #ff6800"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="col-4 card bg-dark text-white">
+          <img class="card-img" src="images/projectbg.png" alt="Card image" />
+          <div class="card-img-overlay align-content-end">
+            <h3 class="card-title">Profesional Art Printing Data</h3>
+            <p class="card-text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul
+              class="my-4 d-flex flex-row list-group list-unstyled justify-content-around"
+            >
+              <li class="css mx-1 px-1 border border-dark border-1">css</li>
+              <li class="html mx-1 px-1 border border-dark border-1">html</li>
+              <li class="bootstrap mx-1 px-1 border border-dark border-1">
+                bootstrap
+              </li>
+              <li class="ruby mx-1 px-1 border border-dark border-1">Ruby</li>
+            </ul>
+            <button
+              href="#"
+              class="btn btn-primary"
+              style="background-color: #ff6800"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="col-4 card bg-dark text-white">
+          <img class="card-img" src="images/projectbg.png" alt="Card image" />
+          <div class="card-img-overlay align-content-end">
+            <h3 class="card-title">Profesional Art Printing Data</h3>
+            <p class="card-text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul
+              class="my-4 d-flex flex-row list-group list-unstyled justify-content-around"
+            >
+              <li class="css mx-1 px-1 border border-dark border-1">css</li>
+              <li class="html mx-1 px-1 border border-dark border-1">html</li>
+              <li class="bootstrap mx-1 px-1 border border-dark border-1">
+                bootstrap
+              </li>
+              <li class="ruby mx-1 px-1 border border-dark border-1">Ruby</li>
+            </ul>
+            <button
+              href="#"
+              class="btn btn-primary"
+              style="background-color: #ff6800"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="col-4 card bg-dark text-white">
+          <img class="card-img" src="images/projectbg.png" alt="Card image" />
+          <div class="card-img-overlay align-content-end">
+            <h3 class="card-title">Profesional Art Printing Data</h3>
+            <p class="card-text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul
+              class="my-4 d-flex flex-row list-group list-unstyled justify-content-around"
+            >
+              <li class="css mx-1 px-1 border border-dark border-1">css</li>
+              <li class="html mx-1 px-1 border border-dark border-1">html</li>
+              <li class="bootstrap mx-1 px-1 border border-dark border-1">
+                bootstrap
+              </li>
+              <li class="ruby mx-1 px-1 border border-dark border-1">Ruby</li>
+            </ul>
+            <button
+              href="#"
+              class="btn btn-primary"
+              style="background-color: #ff6800"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+        <div class="col-4 card bg-dark text-white">
+          <img class="card-img" src="images/projectbg.png" alt="Card image" />
+          <div class="card-img-overlay align-content-end">
+            <h3 class="card-title">Profesional Art Printing Data</h3>
+            <p class="card-text">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard
+            </p>
+            <ul
+              class="my-4 d-flex flex-row list-group list-unstyled justify-content-around"
+            >
+              <li class="css mx-1 px-1 border border-dark border-1">css</li>
+              <li class="html mx-1 px-1 border border-dark border-1">html</li>
+              <li class="bootstrap mx-1 px-1 border border-dark border-1">
+                bootstrap
+              </li>
+              <li class="ruby mx-1 px-1 border border-dark border-1">Ruby</li>
+            </ul>
+            <button
+              href="#"
+              class="btn btn-primary"
+              style="background-color: #ff6800"
+            >
+              See Project
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
