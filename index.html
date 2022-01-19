@@ -27,7 +27,6 @@
   <link rel="stylesheet" href="stylesheets/style.css" />
 
   <!--Smooth scroll script-->
-
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
   <!--Page title-->
@@ -37,8 +36,72 @@
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-  <h1>Test bootstrap</h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light myNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Nemwel Boniface</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i
+              ></a>
+          </li>
+        </ul>  
+      </div>
+    </div>
+  </nav>
 
+  <main class="main">
+    <section class="landing">
+      <ul class="nav flex-column position-absolute top-50 start-15 translate-middle-y">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#"><i class="git fa fa-github" aria-hidden="true"></i
+            ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+        </li>
+      </ul>
+
+      <div class="landingbody">
+        <div class="landingHeader  position-absolute top-50">
+          <h1>Hey There. I'm Nemwel</h1>
+        </div>
+
+        <div class="landingoccupation position-absolute top-50">
+          <h2>I'am a Software Developer</h2>
+        </div>
+
+        <div class="landingexplanation position-absolute top-50">
+          <p>
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have
+            a project you need coded, don't hestiate to contact me.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
 
    <!--Link to bootstrap js node modules-->
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js" ></script>
