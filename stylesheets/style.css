@@ -5,6 +5,10 @@ nav {
   background-color: #3c3a39;
   color: #fff;
 }
+.navbar-nav li {
+  position: relative;
+  left: 40px;
+}
 .landing {
   background: #1c1a19;
   width: 100%;
@@ -68,4 +72,47 @@ nav {
     font-size: 20px;
     line-height: 32px;
   color: #fff;
+}
+
+/*My wprks section now*/
+
+.myWorksHeading {
+  margin-bottom: 100px;
+}
+
+.myWorksHeading h2 {
+  margin-top: 100px;
+  font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    width: 315px;
+    height: 52px;
+}
+.myWorksHeading .hr {
+  width: 784px;
+  margin-left: 24px;
+  border-bottom: 4px solid #000;
+  position: relative;
+  top: 130px;
+}
+
+/*featured products*/
+.featuredproduct {
+  clear: left;
+}
+.btn {
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  align-items: center;
+  padding: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
 }
