@@ -1,0 +1,186 @@
+/* This will contain as little as possible styling for the landing page */
+
+/* Styling for landing page section */
+nav {
+  background-color: #3c3a39;
+  color: #fff;
+}
+
+.navbar-nav li {
+  position: relative;
+
+  /* left: 40px; */
+}
+
+.landing {
+  background: #1c1a19;
+  width: 100%;
+  height: 758px;
+  position: relative;
+  background-image: url(../images/landingdesktopV.png);
+  background-size: 635px 640px;
+  background-position: bottom 100px right 0;
+  background-repeat: no-repeat;
+}
+
+.landingbody {
+  width: 100%;
+  height: 590px;
+  overflow: hidden;
+  position: relative;
+}
+
+.landingHeader {
+  position: relative;
+  margin-top: -130px;
+  margin-left: 150px;
+  padding-bottom: 120px;
+}
+
+.landingHeader h1 {
+  width: 566px;
+  height: 160px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 71px;
+  line-height: 81px;
+  color: #ff6800;
+  margin-bottom: 24px;
+}
+
+.landingoccupation {
+  height: 27px;
+  width: 332px;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.landingoccupation h2 {
+  width: 566px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+}
+
+.landingexplanation {
+  width: 327px;
+  height: 124px;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.landingexplanation p {
+  width: 566px;
+  height: 123px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+}
+
+/* My wprks section now */
+
+.myWorksHeading {
+  margin-bottom: 100px;
+}
+
+.myWorksHeading h2 {
+  margin-top: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+  width: 315px;
+  height: 52px;
+}
+
+.myWorksHeading .hr {
+  width: 784px;
+  margin-left: 24px;
+  border-bottom: 4px solid #000;
+  position: relative;
+  top: 130px;
+}
+
+/* featured products */
+.featuredproduct {
+  clear: left;
+}
+
+.btn {
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  align-items: center;
+  padding: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+}
+
+/* contains the projects section */
+.btm-display {
+  position: relative;
+}
+
+button {
+  background-color: #ff6800;
+}
+
+.btm-display button {
+  background-color: #ff6800;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border: none;
+}
+
+/* who am i section */
+.myworks {
+  width: 100%;
+  height: 100%;
+  background: #1c1a19;
+  background-image: url(../images/Frame.png);
+  background-position: top 100px right 0;
+  background-size: 672px 353px;
+  background-repeat: no-repeat;
+}
+
+.bootstrapHeader h2 {
+  width: 566px;
+  height: 78px;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 81px;
+  color: #f55800;
+  margin-bottom: 24px;
+}
+
+/* form description section */
+.formdesc h2 {
+  width: 455px;
+  height: 256px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #262626;
+}
+
+form input {
+  border: 0;
+  border-bottom: 1px solid #000;
+}
